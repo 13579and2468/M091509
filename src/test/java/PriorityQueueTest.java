@@ -12,7 +12,7 @@ import static org.junit.jupiter.params.provider.Arguments.arguments;
 public class PriorityQueueTest {
     public static Stream<Arguments> getParameters(){
         return Stream.of(
-                arguments(new int[]{4,5,3,2,6},new int[]{1,3,4,5,6}),
+                arguments(new int[]{4,5,3,2,6},new int[]{2,3,4,5,6}),
                 arguments(new int[]{9,-4,0,3,4},new int[]{-4,0,3,4,9}),
                 arguments(new int[]{1,2,3,4,5},new int[]{1,2,3,4,5}),
                 arguments(new int[]{3,2,1},new int[]{1,2,3}),
